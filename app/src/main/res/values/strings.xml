@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">English Learning App</string>
+    <string name="teacher_mode">Teacher Mode</string>
+    <string name="student_mode">Student Mode</string>
+    <string name="current_mode_teacher">Current Mode: Teacher</string>
+    <string name="current_mode_student">Current Mode: Student</string>
+    <string name="record">Record</string>
+    <string name="record_teacher">Record Teacher</string>
+    <string name="record_student">Record Student</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="play_teacher">Play Teacher</string>
+    <string name="play_student">Play Student</string>
+    <string name="stop_teacher">Stop Teacher</string>
+    <string name="stop_student">Stop Student</string>
+    <string name="recording_started">Recording started...</string>
+    <string name="recording_stopped">Recording stopped</string>
+    <string name="permission_required">Permission required to record audio</string>
+    <string name="no_teacher_recording">No teacher recording available</string>
+    <string name="no_student_recording">No student recording available</string>
+    <string name="playing_teacher_recording">Playing teacher recording</string>
+    <string name="playing_student_recording">Playing student recording</string>
+    <string name="failed_to_play">Failed to play recording</string>
+    <string name="teacher_recording_saved">Teacher recording saved</string>
+    <string name="student_recording_saved">Student recording saved</string>
+    <string name="failed_to_save">Failed to save recording</string>
+</resources>

@@ -1,0 +1,872 @@
+[
+ {
+  "English": "What did she do?",
+  "Bangla": "সে কী করেছিল?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "How are you my friends?",
+  "Bangla": "তোমরা কেমন আছ বন্ধুরা?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "How are you, my friend?",
+  "Bangla": "তুমি কেমন আছ বন্ধু?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "What did they do?",
+  "Bangla": "তারা কী করেছিল?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "What did he do?",
+  "Bangla": "সে কী করেছিল?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "What’s in your heart?",
+  "Tiwi": "Kamini apalamiya kangi nginjila ruwuti?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "What is this word\/story that you could do to help yourself?",
+  "Tiwi": "Kamini awarra naki ngirramini ngini nginja wiyi aminyuwani?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "What is this word\/story that you could do which will help you feel better?",
+  "Tiwi": "Kamini awarra ngirramini ngini wiyi aminyuwani?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why is he crying?",
+  "Tiwi": "Pilikama ngarra pirlinkiti awujingimi (male)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are you not happy?",
+  "Tiwi": "Pilikama nginja karluwu kukunari?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why is she crying?",
+  "Tiwi": "Pilkama nyirra pirlinkiti ampujingimi (female)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are they crying?",
+  "Tiwi": "Pilikama pirlinkiti wujingimi (group)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Where is the pain?",
+  "Tiwi": "Maka jana awurrumi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Where do you feel the pain?",
+  "Tiwi": "Maka jana awurrumi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Where is your hearing going?",
+  "Tiwi": "Maka minyawunga ngimpangirri\/purrakuninga\/mikajanga?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Where is your head\/thinking going (not concentrating)?",
+  "Tiwi": "Maka nginja punyipunyi kawunaga arimi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "She has good ears\/is a good listener",
+  "Tiwi": "Mikajanga pumpuka (female)",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "He has good ears\/is a good listener",
+  "Tiwi": "Mikajanga pupuni (male)",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "She has good ears",
+  "Tiwi": "Mikajanga\/Purrakuninga (ears) pumpuka (female) wuni",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "He has good ears",
+  "Tiwi": "Mikajanga\/Purrakuninga (ears) pupuni (male) wuni",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Let’s talk together",
+  "Tiwi": "Murrajiyarrapirri",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Let’s talk about what is in your heart\/mind",
+  "Tiwi": "Murrajiyarrapirri ngini apalamiya kangijila ruwuti\/punyipunyi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "You and I walking together\/side by side",
+  "Tiwi": "Muwiyati murrangurlimayi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Listen\/hear",
+  "Tiwi": "Ngaripirtangaya",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Leaving worries\/bad stories behind. Go forward, follow the good road.",
+  "Tiwi": "Ngawurramwariyi ngini kutakamini jirti ngirramini ngintirikimani. Ngapapurukaga angi pupuka jarrumwaka.",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Care for each other",
+  "Tiwi": "Ngawurrayamangajirri",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Look after ourselves",
+  "Tiwi": "Ngawurrayamangamiya",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "If you’ve got bad feeling, I am here to talk with you",
+  "Tiwi": "Ngini jirti apalamiya kangijila purnikapa api murrajiyarrapirri",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Who are you related to?\/Who is your family?",
+  "Tiwi": "Nginja kuwapi ngirimipi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Did you sleep well last night?",
+  "Tiwi": "Nginja jimajirripi pupuni japinana?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Are you hungry?",
+  "Tiwi": "Nginja paruwani?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Are you ok?",
+  "Tiwi": "Nginja pupukana? (female) or Nginja pupuka? (female)",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Are you ok?",
+  "Tiwi": "Nginja pupunana? (male) or Nginja pupuni? (male)",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I am here if you need to talk",
+  "Tiwi": "Ngiya awungarra ngini murrajiyarrapirri ngini kutakamini apalamiya kangijila",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I am here if you need to talk about what is in your heart and mind",
+  "Tiwi": "Ngiya awungarra ngini murrajiyarrapirri ngini kutakamini apalamiya kangijila ruwuti amintiya punyipunyi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I didn’t sleep well last night",
+  "Tiwi": "Ngiya karluwu pupuni ngirimajirripi japini",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I listen to a story without getting involved\/ I observe their story",
+  "Tiwi": "Ngiya ngiripirtangaya ngini nginja ngimpirimirra",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I will help you",
+  "Tiwi": "Ngiya wiyi ngiminyiwani",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I will come to see you",
+  "Tiwi": "Ngiya wiyi nyiminjakurluwunyi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "I will come to see you later",
+  "Tiwi": "Ngiya wiyi parlinginari nyiminjakurluwunyi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why is he angry?",
+  "Tiwi": "Pilikama ngarra arimikimirtiyarri (male)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why do you feel shame?",
+  "Tiwi": "Pilikama nginja arliranga?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are you feeling sad\/unhappy?",
+  "Tiwi": "Pilikama nginja mirliga?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are you sleeping a lot?",
+  "Tiwi": "Pilikama nginja yunukurni nyimpirimajirripi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why do all of you feel shame?",
+  "Tiwi": "Pilikama nuwa arliranga (group)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are they angry?",
+  "Tiwi": "Pilikama nuwa ngimpirimikimirtiyarri (group)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why is she angry?",
+  "Tiwi": "Pilikama nyirra ampirimikimirtiyarri (female)?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are you arguing?",
+  "Tiwi": "Pilikama nuwa ngimpiriwayatipi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Why are you both arguing?",
+  "Tiwi": "Pilikama nuwa ngupujinguwayatipi?",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Good afternoon",
+  "Tiwi": "Pupuni awurlanari",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Good night",
+  "Tiwi": "Pupuni japinamirni",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Good Morning",
+  "Tiwi": "Pupuni japinari",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Look after yourself",
+  "Tiwi": "Tayamangamiya",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "We will talk together later",
+  "Tiwi": "Wiyi parlinginari nimarra murramikimi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Later on, we will talk together",
+  "Tiwi": "Wiyi parlinginari nimarra murumi",
+  "Topic": "greetings_and_checking_in"
+ },
+ {
+  "English": "Feeling or thinking she is good\/proud\/“flash”",
+  "Tiwi": "Ampangirrajamiya (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Frightened\/scared",
+  "Tiwi": "Ampirimakirri (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Frightened\/scared",
+  "Tiwi": "Arimakirri (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Shame\/Shy (main meanings). Can also mean: “Sorry” for others, Unhappy\/Worried",
+  "Tiwi": "Arliranga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling or thinking he is good\/proud\/“flash”",
+  "Tiwi": "Arrungiramiya (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Stressing. Can also mean: Confused\/paranoid\/not coping",
+  "Tiwi": "Awuntingirraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Hearing voices in their ears telling them what to do",
+  "Tiwi": "Awuta mamakuwi nimarra wujingimi kangi wuta minyawunga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Hearing voices in their head telling them what to do",
+  "Tiwi": "Awuta mamakuwi nimarra wujingimi kangi wuta punyipunyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling weak or tired",
+  "Tiwi": "Janawurti",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She got a shock",
+  "Tiwi": "Jikitarriji\/jipakilimigi angatawa yiminga (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling strong (body and mind)",
+  "Tiwi": "Jikurturumi (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "“No good”. Can also mean: Annoyed\/sick",
+  "Tiwi": "Jirti",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling “no good” in your body. Can also mean: Not feeling yourself\/Sad inside",
+  "Tiwi": "Jirti yilipiga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Whispering to himself",
+  "Tiwi": "Jukutingini (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Whispering to herself",
+  "Tiwi": "Jukutinga (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Whispering to themselves",
+  "Tiwi": "Jukutingimpi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Sweating",
+  "Tiwi": "Kalampara",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She ran away",
+  "Tiwi": "Kali jimakirringimi (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She ran away from her bad story (problems\/worries)",
+  "Tiwi": "Kali jimakirringimi pili jirti ngirramini (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They ran away",
+  "Tiwi": "Kali wurimakirrimi (more than one)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He ran away",
+  "Tiwi": "Kali yimakirringimi (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He ran away from his bad story (problems\/worries)",
+  "Tiwi": "Kali yimakirringimi pili jirti ngirramini (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "People who have worries\/“stressing”\/not coping",
+  "Tiwi": "Kapi awuntingirraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Our friends who have worries\/“stressing”\/not coping",
+  "Tiwi": "Kapi ngawa mamanta awuntingirraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "People who have worries\/“stressing”\/not coping",
+  "Tiwi": "Kapi wuta awuntingirraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Not happy",
+  "Tiwi": "Karluwu kukunari",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I didn’t sleep well",
+  "Tiwi": "Karluwu pupuni ngirimajirripi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I have no friends",
+  "Tiwi": "Karrikuwapi ngiya mamanta",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I have no family",
+  "Tiwi": "Karrikuwapi ngiya ngirimipi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Nobody loves me\/cares for me",
+  "Tiwi": "Karrikuwapi wurtimarti ngiya",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Happy, Relaxed\/calm, Proud",
+  "Tiwi": "Kukunari\/Miringayi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Somebody is talking, but it is all in my head\/I can hear people talking inside my head (auditory hallucinations)",
+  "Tiwi": "Kutakuwapi nimarra wujingimi kapi ngiya punyipunyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He has lost touch with reality\/his mind is somewhere else",
+  "Tiwi": "Kutamaka ngarra punyipunyi arimuwu (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She has lost touch with reality\/her mind is somewhere else",
+  "Tiwi": "Kutamaka nyirra punyipunyi ampirimuwu (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They lose touch with reality\/their mind is somewhere else",
+  "Tiwi": "Kutamaka wuta punyipunyi arimuwu (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "“Cheeky drugs”\/”hot drugs”\/Synthetic drugs (e.g. Synthetic marijuana, ice, methamphetamine)",
+  "Tiwi": "Majaripika",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Hearing voices",
+  "Tiwi": "Mamankuwi wujirrangiraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Scared",
+  "Tiwi": "Mankirringini\/ arimakirri (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Scared",
+  "Tiwi": "Mankirrika \/ ampirimakirri (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Scared",
+  "Tiwi": "Mankirringimpi \/ wurumakirri (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Jealous",
+  "Tiwi": "Martupungari",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling good",
+  "Tiwi": "Mijuwalini\/pupuni (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling good",
+  "Tiwi": "Mijuwalinga\/pupuka (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling good",
+  "Tiwi": "Mijuwaluwi\/Papuranjuwi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Unhappy",
+  "Tiwi": "Mirliga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Beer\/“Grog”\/Alcohol. Also means: Saltwater",
+  "Tiwi": "Mirripaka",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Don’t get angry\/aggressive",
+  "Tiwi": "Ngajiti ngawujakirimitiyarri",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Sweating",
+  "Tiwi": "Ngarikilini",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He is deadly\/smart\/clever",
+  "Tiwi": "Ngarra arungurramiya (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He is surprised",
+  "Tiwi": "Ngarra arimingarlingi (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He took his life away (suicide)",
+  "Tiwi": "Ngarra yipirnamiya (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Teaching people\/reminding ourselves of the right story, to keep on track (positive thinking)",
+  "Tiwi": "Ngawa ngintimatapiliga nginingawula ngirramini",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Our family see things that are not there when they are sick",
+  "Tiwi": "Ngawa mamanta wupakurluwunyi mamakuwi karri wuta jana",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am not hungry",
+  "Tiwi": "Ngiya karluwu paruwani",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am not well",
+  "Tiwi": "Ngiya karluwu pupuka (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am not well",
+  "Tiwi": "Ngiya karluwu pupuni (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am on my own\/alone",
+  "Tiwi": "Ngiya wangantamiya",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am hot. Can also mean: I am angry",
+  "Tiwi": "Ngiya yikwanari",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She is talking to herself",
+  "Tiwi": "Nimarra ampirimi nyitamiya (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He is talking to himself",
+  "Tiwi": "Nimarra arimi ngatamiya (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They talk to themselves",
+  "Tiwi": "Nimarra wurimi wutilamiya (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They are talking to themselves",
+  "Tiwi": "Nimarra wujingimi wutamiya (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She is surprised",
+  "Tiwi": "Nyirra ampirimarlingi (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She took her life away (suicide)",
+  "Tiwi": "Nyirra jipirnamiya (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am “sorry” (I acknowledge your or my grief)",
+  "Tiwi": "Nuwa nguriyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/uneasy. Heart beating fast, a problem\/bad news is coming",
+  "Tiwi": "Palipali ampirimi angilawa yiminga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "From the past, they still carry that bad feeling inside them (trauma)",
+  "Tiwi": "Parlingarri ngini jirti ngirramini purruwunani api karluwu kiyija arnturuka",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Big eyes (staring)",
+  "Tiwi": "Pijarama (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Big eyes (staring)",
+  "Tiwi": "Pijaramini (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Big eyes (staring)",
+  "Tiwi": "Pijaramuwi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Why did he look at me? (suspicious)",
+  "Tiwi": "Pilikama ngarra yimintakurluwunyi (male)?",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Why are they looking at me? (suspicious)",
+  "Tiwi": "Pilikama nuwa ngintimantakurluwunyi (group)?",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Why did she look at me? (suspicious)",
+  "Tiwi": "Pilikama nyirra jimintakurluwunyi (female)?",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Talking all jumbled up (talking but not making sense)",
+  "Tiwi": "Pirlamarri ampangiraga (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Talking all jumbled up (talking but not making sense)",
+  "Tiwi": "Pirlamarri apangiraga (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Talking all jumbled up (talking but not making sense)",
+  "Tiwi": "Pirlamarri wupangiraga kapi naki (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "These people are talking all jumbled up (these people are talking but not making sense)",
+  "Tiwi": "Pirlamarri wupangiraga ngawa mamanta (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Crying",
+  "Tiwi": "Pirlinkiti awujingimi (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Crying",
+  "Tiwi": "Pirlinkiti ampujingimi (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Crying",
+  "Tiwi": "Pirlinkiti wujingimi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling weak or tired",
+  "Tiwi": "Pirringawuni",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am being loved",
+  "Tiwi": "Puranji wurumuwu ngawa",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They love me",
+  "Tiwi": "Puranji wurumuwu ngiya",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling strong as a group",
+  "Tiwi": "Purukurturumi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Nervous, shaking (anxiety)",
+  "Tiwi": "Purlingiya",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am shaky",
+  "Tiwi": "Purlingiya ngirimi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am shaky inside my stomach (nausea)",
+  "Tiwi": "Purlingiya ngirimi kapi ngiya pitipita",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Pain in the head\/headache",
+  "Tiwi": "Pungintaga jana",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I slept well last night\/good sleep",
+  "Tiwi": "Pupuni ngirimajirripi japini",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feel “sorry” for that family\/we feel “sorry” for them (grief)",
+  "Tiwi": "Putuputuwu ngawuntakirayi ngawa mamanta",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "We grieve for ourselves\/ Feeling “sorry” for ourselves",
+  "Tiwi": "Putuputuwu ngawurrakirayamiya",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He is laughing to himself",
+  "Tiwi": "Pwakayini kapi ngatamiya (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "She is laughing to herself",
+  "Tiwi": "Pwakayini kapi nyitamiya (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They are laughing to themselves",
+  "Tiwi": "Pwakayini wurimi wutilamiya (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Heart beating fast",
+  "Tiwi": "Ruwuti ampilampa",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Everyone is talking in my head",
+  "Tiwi": "Tayikuwapi nimarra wujingimi kapi ngiya punyipunyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "I am going back to my homeland because I am feeling sick (longing for country)",
+  "Tiwi": "Waya nguwujakupawurli kapi ngiya timani pili ngiya waya jana yiminipirni.",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Hearing voices",
+  "Tiwi": "Wujirrangiraga kangawa purrakuninga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Seeing spirits\/seeing things that are not there (visual hallucinations)",
+  "Tiwi": "Wupakurluwunyi yimanka",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They are feeling or thinking they are good\/proud\/“flash”",
+  "Tiwi": "Wupangirrajamiya (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "“Gunja”\/cannabis\/marijuana",
+  "Tiwi": "Wupunga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Frightened\/scared",
+  "Tiwi": "Wurumakirri (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They are surprised",
+  "Tiwi": "Wuta wurumarlingi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "They are talking to themselves",
+  "Tiwi": "Wutamiya nimarra wujingimi (group)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure",
+  "Tiwi": "Yartari",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure with shortness of breath",
+  "Tiwi": "Yartari ampirimarrimi angi nyitawa yiminga (female)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure with shortness of breath",
+  "Tiwi": "Yartari arimarrimi angatawa yiminga (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure with head (thoughts) racing",
+  "Tiwi": "Yartari ngarimajigi nginingawula punyipunyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure with heart beating fast",
+  "Tiwi": "Yartari wurumarrimi angiwutawa yiminga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling anxious\/unsure and not thinking straight (confused)",
+  "Tiwi": "Yartari wurumajigi nginiwutawa punyipunyi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "He got a shock",
+  "Tiwi": "Yikitarriji\/yipakilimigi angatawa yiminga (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Feeling strong. NB: can represent body and mind",
+  "Tiwi": "Yikurturumi (male)",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Goosebumps",
+  "Tiwi": "Yilintiraga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Heartbeat\/Pulse. Can also mean: Totem, Craving for bush tucker",
+  "Tiwi": "Yiminga",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Tight muscles (feeling tense)",
+  "Tiwi": "Yinjinga juwurumi",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Sometimes I forget",
+  "Tiwi": "Yingampini nyimpangirliparra",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Lots of beer (Intoxicated\/drunk)",
+  "Tiwi": "Yingarti mirripaka",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "There are lots of voices\/people talking around us",
+  "Tiwi": "Yingarti pujinga nimarra wujingimi kangawula",
+  "Topic": "feelings_and_behaviours"
+ },
+ {
+  "English": "Lots of “gunja” (Intoxicated\/”stoned”\/feeling the effects of cannabis)",
+  "Tiwi": "Yingarti wupunga",
+  "Topic": "feelings_and_behaviours"
+ }
+]

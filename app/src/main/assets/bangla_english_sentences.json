@@ -1,0 +1,207 @@
+[
+  {
+    "English": "How are you my friends?",
+    "Bangla": "তোমরা কেমন আছ বন্ধুরা?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "How are you, my friend?",
+    "Bangla": "তুমি কেমন আছ বন্ধু?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Good morning",
+    "Bangla": "শুভ সকাল",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Good afternoon",
+    "Bangla": "শুভ অপরাহ্ন",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Good night",
+    "Bangla": "শুভ রাত্রি",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Did you sleep well last night?",
+    "Bangla": "গত রাতে কি ভালো ঘুম হয়েছিল?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Are you hungry?",
+    "Bangla": "তুমি কি ক্ষুধার্ত?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Are you ok?",
+    "Bangla": "তুমি কি ঠিক আছো?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "I will help you",
+    "Bangla": "আমি তোমাকে সাহায্য করব",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "I will come to see you",
+    "Bangla": "আমি তোমাকে দেখতে আসব",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "I will come to see you later",
+    "Bangla": "আমি পরে তোমাকে দেখতে আসব",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Why are you not happy?",
+    "Bangla": "তুমি কেন খুশি নও?",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Look after yourself",
+    "Bangla": "নিজের যত্ন নাও",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "We will talk together later",
+    "Bangla": "আমরা পরে একসাথে কথা বলব",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "Thank you very much",
+    "Bangla": "অনেক ধন্যবাদ",
+    "Topic": "greetings_and_checking_in"
+  },
+  {
+    "English": "I am happy",
+    "Bangla": "আমি খুশি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am sad",
+    "Bangla": "আমি দুঃখিত",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am scared",
+    "Bangla": "আমি ভয় পেয়েছি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am tired",
+    "Bangla": "আমি ক্লান্ত",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am not well",
+    "Bangla": "আমি ভালো নেই",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am feeling good",
+    "Bangla": "আমি ভালো অনুভব করছি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am nervous",
+    "Bangla": "আমি নার্ভাস",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I am surprised",
+    "Bangla": "আমি অবাক",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I slept well last night",
+    "Bangla": "গত রাতে আমি ভালো ঘুমিয়েছি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "I didn't sleep well",
+    "Bangla": "আমি ভালো ঘুমাতে পারিনি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "What is your name?",
+    "Bangla": "তোমার নাম কী?",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "My name is...",
+    "Bangla": "আমার নাম...",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "Where do you live?",
+    "Bangla": "তুমি কোথায় থাকো?",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I live in...",
+    "Bangla": "আমি... এ থাকি",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "How old are you?",
+    "Bangla": "তোমার বয়স কত?",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I am ... years old",
+    "Bangla": "আমার বয়স ... বছর",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "What do you do?",
+    "Bangla": "তুমি কী করো?",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I am a student",
+    "Bangla": "আমি একজন ছাত্র/ছাত্রী",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I am a teacher",
+    "Bangla": "আমি একজন শিক্ষক/শিক্ষিকা",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "Nice to meet you",
+    "Bangla": "তোমার সাথে দেখা হয়ে ভালো লাগলো",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "See you later",
+    "Bangla": "পরে দেখা হবে",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "Please help me",
+    "Bangla": "দয়া করে আমাকে সাহায্য করুন",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I don't understand",
+    "Bangla": "আমি বুঝতে পারছি না",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "Can you repeat that?",
+    "Bangla": "তুমি কি এটা আবার বলতে পারবে?",
+    "Topic": "basic_conversation"
+  },
+  {
+    "English": "I love you",
+    "Bangla": "আমি তোমাকে ভালোবাসি",
+    "Topic": "feelings_and_behaviours"
+  },
+  {
+    "English": "Please speak slowly",
+    "Bangla": "দয়া করে ধীরে কথা বলুন",
+    "Topic": "basic_conversation"
+  }
+]
