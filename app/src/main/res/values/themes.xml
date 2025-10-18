@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.TiwiLanguageApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.DailyGoalPoints" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.TiwiLanguageApp" parent="Base.Theme.TiwiLanguageApp" />
+    <style name="Theme.DailyGoalPoints" parent="Base.Theme.DailyGoalPoints" />
+    <style name="CustomDayCheckbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/custom_checkbox_selector</item>
+        <item name="android:textColor">@color/cardview_shadow_end_color</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
 </resources>

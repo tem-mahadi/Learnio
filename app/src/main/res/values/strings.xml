@@ -23,4 +23,17 @@
     <string name="teacher_recording_saved">Teacher recording saved</string>
     <string name="student_recording_saved">Student recording saved</string>
     <string name="failed_to_save">Failed to save recording</string>
+    <string name="widget_description">Track your daily water intake</string>
+    <string name="widget_enhanced_description">Track daily water intake and maintain hydration goals with advanced features and notifications.Enhanced daily points tracker with progress indicators and trend analysis</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="_018xxxxxxxx">018XXXXXXXX</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="cse">CSE</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_the_otp_send_to">Enter the OTP send to</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification_settings_title">Notification Settings</string>
+    <string name="notification_reminders">Notification Reminders</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_n_mobile_number">We will send you an one time password on this mobile number</string>
 </resources>
