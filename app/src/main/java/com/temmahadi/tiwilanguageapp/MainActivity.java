@@ -1,13 +1,20 @@
 package com.temmahadi.tiwilanguageapp;
 
 import android.Manifest;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -21,6 +28,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.temmahadi.tiwilanguageapp.adapter.SentenceAdapter;
 import com.temmahadi.tiwilanguageapp.dao.SentenceDao;
 import com.temmahadi.tiwilanguageapp.database.AppDatabase;
+import com.temmahadi.tiwilanguageapp.logIn.ApiService;
+import com.temmahadi.tiwilanguageapp.logIn.MobileNumberActivity;
+import com.temmahadi.tiwilanguageapp.logIn.RetrofitClient;
+import com.temmahadi.tiwilanguageapp.logIn.SubscriptionManager;
+import com.temmahadi.tiwilanguageapp.logIn.UnsubscribeRequest;
+import com.temmahadi.tiwilanguageapp.logIn.UnsubscribeResponse;
 import com.temmahadi.tiwilanguageapp.model.Sentence;
 import com.temmahadi.tiwilanguageapp.model.StudentRecording;
 import com.temmahadi.tiwilanguageapp.repository.AppRepository;
@@ -29,6 +42,10 @@ import com.temmahadi.tiwilanguageapp.utils.JsonLoader;
 import com.temmahadi.tiwilanguageapp.viewmodel.MainViewModel;
 
 import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity implements SentenceAdapter.OnSentenceClickListener {
     
@@ -385,6 +402,129 @@ public class MainActivity extends AppCompatActivity implements SentenceAdapter.O
         if (audioManager != null) {
             audioManager.release();
         }
+    }
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.action_unsubscribe) {
+            showUnsubscribeDialog();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void showUnsubscribeDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("Unsubscribe")
+                .setMessage("Are you sure you want to unsubscribe from Tiwi Language App?\n\n" +
+                        "⚠️ You will need to verify with OTP again to use the app.\n" +
+                        "📊 Your recordings and data will be preserved and available when you resubscribe.")
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setPositiveButton("Yes, Unsubscribe", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        performUnsubscribe();
+                    }
+                })
+                .setNegativeButton("Cancel", null)
+                .show();
+    }
+
+    private void performUnsubscribe() {
+        String mobileNumber = SubscriptionManager.getUserMobile(this);
+        
+        if (mobileNumber == null || mobileNumber.isEmpty()) {
+            Toast.makeText(this, "No mobile number found", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        // Ensure the mobile number has the correct format
+        String subscriberId = mobileNumber;
+        if (!subscriberId.startsWith("tel:")) {
+            subscriberId = "tel:" + subscriberId;
+        }
+        
+        if (!subscriberId.contains("tel:88")) {
+            subscriberId = subscriberId.replace("tel:", "tel:88");
+        }
+
+        // Show progress dialog
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Unsubscribing...");
+        progressDialog.setCancelable(false);
+        progressDialog.show();
+
+        // Create API request
+        ApiService apiService = RetrofitClient.getRetrofitInstance().create(ApiService.class);
+        UnsubscribeRequest request = new UnsubscribeRequest(subscriberId);
+        
+        Call<UnsubscribeResponse> call = apiService.unsubscribeUser(request);
+        call.enqueue(new Callback<UnsubscribeResponse>() {
+            @Override
+            public void onResponse(@NonNull Call<UnsubscribeResponse> call, @NonNull Response<UnsubscribeResponse> response) {
+                progressDialog.dismiss();
+                
+                if (response.isSuccessful() && response.body() != null) {
+                    UnsubscribeResponse unsubscribeResponse = response.body();
+                    
+                    if (unsubscribeResponse.isSuccess() || 
+                        "UNREGISTERED".equals(unsubscribeResponse.getSubscriptionStatus())) {
+                        handleSuccessfulUnsubscribe();
+                    } else {
+                        String errorMessage = unsubscribeResponse.getStatusDetail();
+                        if (errorMessage == null || errorMessage.isEmpty()) {
+                            errorMessage = "Failed to unsubscribe. Please try again.";
+                        }
+                        showErrorDialog("Unsubscribe Failed", errorMessage);
+                    }
+                } else {
+                    showErrorDialog("Error", "Server error. Please try again later.");
+                }
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<UnsubscribeResponse> call, @NonNull Throwable t) {
+                progressDialog.dismiss();
+                showErrorDialog("Network Error", 
+                    "Failed to connect to server.\n\n" + t.getMessage());
+            }
+        });
+    }
+
+    private void handleSuccessfulUnsubscribe() {
+        SubscriptionManager.clearSubscriptionData(this);
+        
+        new AlertDialog.Builder(this)
+                .setTitle("Unsubscribed Successfully")
+                .setMessage("✅ You have been successfully unsubscribed.\n\n" +
+                        "You will need to verify with OTP to use the app again.")
+                .setIcon(android.R.drawable.ic_dialog_info)
+                .setCancelable(false)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(MainActivity.this, MobileNumberActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intent);
+                        finish();
+                    }
+                })
+                .show();
+    }
+
+    private void showErrorDialog(String title, String message) {
+        new AlertDialog.Builder(this)
+                .setTitle(title)
+                .setMessage(message)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setPositiveButton("OK", null)
+                .show();
     }
     
     @Override
