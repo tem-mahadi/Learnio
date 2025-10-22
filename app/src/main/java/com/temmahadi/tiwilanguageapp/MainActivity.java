@@ -25,6 +25,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.appbar.MaterialToolbar;
 import com.temmahadi.tiwilanguageapp.adapter.SentenceAdapter;
 import com.temmahadi.tiwilanguageapp.dao.SentenceDao;
 import com.temmahadi.tiwilanguageapp.database.AppDatabase;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements SentenceAdapter.O
     private Button btnStudentMode;
     private TextView modeIndicator;
     private RecyclerView recyclerView;
+    private MaterialToolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements SentenceAdapter.O
         });
         
         initializeViews();
+        setupToolbar();
         checkPermissions();
         initializeViewModel();
         setupRecyclerView();
@@ -91,12 +94,17 @@ public class MainActivity extends AppCompatActivity implements SentenceAdapter.O
         btnStudentMode = findViewById(R.id.btn_student_mode);
         modeIndicator = findViewById(R.id.mode_indicator);
         recyclerView = findViewById(R.id.recycler_sentences);
+        toolbar = findViewById(R.id.toolbar);
         audioManager = new AudioManager();
         
         // Set up playback completion listener
         audioManager.setOnPlaybackCompleteListener(() -> {
             runOnUiThread(() -> stopCurrentPlayback());
         });
+    }
+    
+    private void setupToolbar() {
+        setSupportActionBar(toolbar);
     }
     
     private void checkPermissions() {
