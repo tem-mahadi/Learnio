@@ -7,5 +7,4 @@
         android:title="Unsubscribe"
         android:icon="@android:drawable/ic_menu_close_clear_cancel"
         app:showAsAction="never" />
-        
 </menu>

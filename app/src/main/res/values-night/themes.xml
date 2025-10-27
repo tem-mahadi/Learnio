@@ -1,7 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.DailyGoalPoints" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Primary colors for dark mode -->
+        <item name="colorPrimary">#64B5F6</item>
+        <item name="colorPrimaryVariant">#42A5F5</item>
+        <item name="colorOnPrimary">#000000</item>
+        
+        <!-- Secondary colors -->
+        <item name="colorSecondary">#80CBC4</item>
+        <item name="colorSecondaryVariant">#4DB6AC</item>
+        <item name="colorOnSecondary">#000000</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnSurface">#E0E0E0</item>
+        <item name="colorOnBackground">#E0E0E0</item>
+        
+        <!-- Additional colors -->
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#000000</item>
+        
+        <!-- Status bar and navigation bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#1E1E1E</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
     </style>
 </resources>
