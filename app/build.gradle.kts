@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.temmahadi.tiwilanguageapp"
+    namespace = "com.temmahadi.EnglishLearningApp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.temmahadi.tiwilanguageapp"
+        applicationId = "com.temmahadi.EnglishLearningApp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

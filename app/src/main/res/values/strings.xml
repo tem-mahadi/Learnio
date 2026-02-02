@@ -36,4 +36,115 @@
     <string name="notification_settings_title">Notification Settings</string>
     <string name="notification_reminders">Notification Reminders</string>
     <string name="we_will_send_you_an_one_time_password_on_this_n_mobile_number">We will send you an one time password on this mobile number</string>
+    
+    <!-- Statistics & Progress -->
+    <string name="statistics">Statistics</string>
+    <string name="your_statistics">Your Statistics</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="longest_streak">Longest Streak</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="total_practice">Total Practice</string>
+    <string name="total_recordings">Total Recordings</string>
+    <string name="mastered">Mastered</string>
+    
+    <!-- Achievements -->
+    <string name="achievements">Achievements</string>
+    <string name="your_achievements">Your Achievements</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="view_all">View All</string>
+    <string name="no_achievements_yet">No achievements yet</string>
+    <string name="start_practicing">Start practicing to earn achievements!</string>
+    <string name="all">All</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+    <string name="unlocked_on">Unlocked on</string>
+    <string name="not_yet_unlocked">Not yet unlocked</string>
+    <string name="reward">Reward</string>
+    <string name="status">Status</string>
+    <string name="ok">OK</string>
+    
+    <!-- Levels -->
+    <string name="level_beginner">Beginner</string>
+    <string name="level_elementary">Elementary</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_advanced">Advanced</string>
+    <string name="level_expert">Expert</string>
+    <string name="level_master">Master</string>
+    
+    <!-- Topics/Categories -->
+    <string name="all_topics">All Topics</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="search_sentences">Search sentences...</string>
+    <string name="no_sentences_found">No sentences found</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sort By</string>
+    
+    <!-- Quiz Mode -->
+    <string name="quiz_mode">Quiz Mode</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="question">Question</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="quiz_complete">Quiz Complete!</string>
+    <string name="your_score">Your Score</string>
+    <string name="try_again">Try Again</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    
+    <!-- Practice Mode -->
+    <string name="practice_mode">Practice Mode</string>
+    <string name="listen">Listen</string>
+    <string name="speak">Speak</string>
+    <string name="compare">Compare</string>
+    <string name="mark_as_mastered">Mark as Mastered</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    
+    <!-- Add Sentence -->
+    <string name="add_sentence">Add Sentence</string>
+    <string name="add_new_sentence">Add New Sentence</string>
+    <string name="add_sentence_description">Create a new sentence for students to learn</string>
+    <string name="edit_sentence">Edit Sentence</string>
+    <string name="edit_sentence_description">Modify this sentence</string>
+    <string name="sentence_updated">Sentence updated successfully!</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="english_sentence">English Sentence</string>
+    <string name="bangla_translation">বাংলা অনুবাদ (Bangla Translation)</string>
+    <string name="topic_category">Topic / Category</string>
+    <string name="save_sentence">Save Sentence</string>
+    <string name="sentence_saved">Sentence saved successfully!</string>
+    <string name="field_required">This field is required</string>
+    <string name="clear">Clear</string>
+    <string name="tips">💡 Tips</string>
+    <string name="add_sentence_tips">• Write clear, natural sentences\n• Use everyday vocabulary\n• Check spelling before saving\n• Select or type a topic category</string>
+    
+    <!-- Favorites -->
+    <string name="view_favorites">View Favorites</string>
+    <string name="no_favorites">No favorites yet</string>
+    <string name="add_favorites_hint">Tap the heart icon on sentences to add them to favorites</string>
+    
+    <!-- Mastery Stars -->
+    <string name="rate_mastery">Rate Your Mastery</string>
+    <string name="mastery_updated">Mastery updated to %d stars</string>
+    
+    <!-- Notifications -->
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="dont_break_your_streak">Don\'t break your streak! Practice now.</string>
+    <string name="keep_learning">Keep learning English today!</string>
+    
+    <!-- Menu -->
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_quiz">Quiz</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    
+    <!-- Misc -->
+    <string name="xp_earned">+%d XP earned!</string>
+    <string name="level_up">Level Up!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="achievement_unlocked">Achievement Unlocked!</string>
+    <string name="streak_bonus">Streak Bonus: +%d XP</string>
+    <string name="daily_goal_reached">Daily Goal Reached! 🎉</string>
 </resources>

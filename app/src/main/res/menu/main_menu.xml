@@ -3,6 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     
     <item
+        android:id="@+id/action_add_sentence"
+        android:title="@string/add_sentence"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_favorites"
+        android:title="@string/view_favorites"
+        android:icon="@drawable/ic_favorite_filled"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_statistics"
+        android:title="@string/menu_statistics"
+        android:icon="@drawable/ic_statistics"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_quiz"
+        android:title="@string/menu_quiz"
+        android:icon="@drawable/ic_quiz"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_achievements"
+        android:title="@string/menu_achievements"
+        android:icon="@drawable/ic_trophy"
+        app:showAsAction="never" />
+    
+    <item
         android:id="@+id/action_unsubscribe"
         android:title="Unsubscribe"
         android:icon="@android:drawable/ic_menu_close_clear_cancel"

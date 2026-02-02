@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark Mode Specific Colors -->
+    <!-- Dark Mode Colors - Optimized for OLED and readability -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Primary Colors - Adjusted for dark mode -->
+    <!-- Primary Brand Colors - Brighter for dark mode -->
+    <color name="primary">#64B5F6</color>
+    <color name="primary_light">#90CAF9</color>
+    <color name="primary_dark">#42A5F5</color>
     <color name="primary_color">#64B5F6</color>
     <color name="primary_variant">#42A5F5</color>
-    <color name="secondary_color">#80CBC4</color>
-    <color name="accent_color">#FFB74D</color>
-    <color name="success_color">#81C784</color>
-    <color name="error_color">#E57373</color>
-    <color name="warning_color">#FFD54F</color>
-    <color name="warning_background">#3E2723</color>
-    <color name="warning_text">#FFD54F</color>
-
-    <!-- Text Colors - Optimized for dark backgrounds -->
-    <color name="text_primary">#E0E0E0</color>
-    <color name="text_secondary">#B0B0B0</color>
-    <color name="text_hint">#808080</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#4DB6AC</color>
+    <color name="secondary_color">#4DB6AC</color>
+    <color name="accent">#FFAB40</color>
+    <color name="accent_color">#FFAB40</color>
+    
+    <!-- Text Colors - High Contrast for Night Mode -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_tertiary">#8A8A8A</color>
+    <color name="text_hint">#707070</color>
+    <color name="text_on_primary">#000000</color>
+    <color name="text_on_secondary">#000000</color>
     <color name="text_hint_light">#FFFFFF60</color>
 
-    <!-- Background Colors - Dark theme -->
-    <color name="background_light">#121212</color>
+    <!-- Background Colors - True dark for OLED -->
+    <color name="background">#121212</color>
+    <color name="background_light">#1E1E1E</color>
     <color name="background_dark">#000000</color>
     <color name="card_background">#1E1E1E</color>
     <color name="surface_color">#1E1E1E</color>
+    <color name="surface_variant">#2D2D2D</color>
+    
+    <!-- Status Colors - Softer for dark mode -->
+    <color name="success_color">#81C784</color>
+    <color name="error_color">#EF5350</color>
+    <color name="warning_color">#FFD54F</color>
+    <color name="info_color">#4FC3F7</color>
+    <color name="warning_background">#3E2723</color>
+    <color name="warning_text">#FFD54F</color>
+    <color name="info_bg">#1A237E</color>
 
     <!-- Progress Colors -->
     <color name="progress_background">#424242</color>
     <color name="progress_background_light">#FFFFFF20</color>
 
-    <!-- Priority Colors - Softer for dark mode -->
+    <!-- Priority Colors - Adjusted for dark backgrounds -->
     <color name="priority_high">#EF5350</color>
     <color name="priority_medium">#FFA726</color>
     <color name="priority_low">#66BB6A</color>
@@ -41,13 +57,33 @@
     <color name="status_pending">#FFA726</color>
     <color name="status_overdue">#EF5350</color>
     
-    <color name="my_light_primary">#42A5F5</color>
-    <color name="my_light_secondary">#FF03DAC5</color>
+    <!-- Legacy Colors -->
+    <color name="my_light_primary">#64B5F6</color>
+    <color name="my_light_secondary">#4DB6AC</color>
     <color name="my_dark_primary">#1565C0</color>
     
+    <!-- Button Colors - Brighter for dark mode -->
     <color name="purple_200">#CE93D8</color>
-    <color name="purple_500">#9C27B0</color>
-    <color name="purple_700">#7B1FA2</color>
+    <color name="purple_500">#AB47BC</color>
+    <color name="purple_700">#8E24AA</color>
     <color name="teal_200">#80CBC4</color>
-    <color name="teal_700">#00796B</color>
+    <color name="teal_700">#26A69A</color>
+    
+    <!-- Quiz Colors -->
+    <color name="correct_green">#81C784</color>
+    <color name="correct_bg">#1B5E20</color>
+    <color name="error_red">#EF5350</color>
+    <color name="error_bg">#B71C1C</color>
+    
+    <!-- Card and Divider -->
+    <color name="divider">#424242</color>
+    <color name="card_stroke">#333333</color>
+    
+    <!-- Star Colors -->
+    <color name="star_filled">#FFD54F</color>
+    <color name="star_empty">#616161</color>
+    
+    <!-- Favorite Colors -->
+    <color name="favorite_active">#F06292</color>
+    <color name="favorite_inactive">#757575</color>
 </resources>

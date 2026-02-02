@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@color/primary">
+
+    <ImageView
+        android:id="@+id/ivAchievementIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_trophy"
+        app:tint="@color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/tvAchievementTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆 Achievement Unlocked!"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:alpha="0.9" />
+
+        <TextView
+            android:id="@+id/tvAchievementName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Steps"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvXPReward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+10 XP"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:background="@drawable/bg_xp_badge_dark"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp" />
+
+</LinearLayout>

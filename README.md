@@ -25,6 +25,38 @@ An Android application designed to help Bangla-speaking students learn English p
 - **Audio Playback Controls**: Play and stop functionality for all recordings
 - **Persistent Storage**: All recordings are saved for later review
 
+### 🎮 Gamification & Progress Tracking (NEW!)
+
+- **XP & Leveling System**: Earn XP for practicing and unlock new levels
+- **Daily Streaks**: Build consecutive day streaks to earn bonus XP
+- **27 Achievements**: Unlock achievements for various milestones
+- **Daily Goals**: Set and track daily practice goals
+- **Progress Statistics**: View detailed stats on your learning journey
+- **Mastery Stars**: Rate your proficiency on each sentence (1-5 stars)
+- **Favorites**: Mark sentences as favorites for quick access
+- **Quiz Mode**: Test your knowledge with interactive quizzes
+
+### 🏆 Achievement System
+
+Unlock achievements across 6 categories:
+
+- **Practice Count**: First Steps, Getting Started, Dedicated Learner, etc.
+- **Streak**: On Fire, Week Warrior, Fortnight Hero, etc.
+- **Recordings**: Voice Actor, Sound Engineer, etc.
+- **Mastered**: Perfect Score, Half Way There, etc.
+- **Level**: Rising Star, Scholar, etc.
+- **Favorites**: Collector, Curator
+
+### 📊 Statistics Dashboard
+
+- Total practice sessions
+- Current and longest streak
+- Total recordings made
+- Sentences mastered
+- Achievements unlocked
+- Daily goal progress
+- XP and level progress
+
 ## 🎯 How to Use
 
 ### Teacher Mode
