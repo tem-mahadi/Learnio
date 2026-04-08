@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">English Learning App</string>
+    <string name="app_name">Learnio</string>
     <string name="teacher_mode">Teacher Mode</string>
     <string name="student_mode">Student Mode</string>
     <string name="current_mode_teacher">Current Mode: Teacher</string>

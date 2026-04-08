@@ -14,7 +14,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary"
         android:elevation="4dp"
-        app:title="English Learning App"
+        app:title="Learnio"
         app:titleTextColor="@color/text_on_primary"
         app:popupTheme="@style/ThemeOverlay.Material3.Light" />
 

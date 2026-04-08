@@ -511,9 +511,8 @@ public class MainActivity extends AppCompatActivity implements SentenceAdapter.O
     private void showUnsubscribeDialog() {
         new AlertDialog.Builder(this)
                 .setTitle("Unsubscribe")
-                .setMessage("Are you sure you want to unsubscribe from Tiwi Language App?\n\n" +
-                        "⚠️ You will need to verify with OTP again to use the app.\n" +
-                        "📊 Your recordings and data will be preserved and available when you resubscribe.")
+                .setMessage("Are you sure you want to unsubscribe from Learnio?\n\n" +
+                        "⚠️ You will need to verify with OTP again to use the app.\n")
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setPositiveButton("Yes, Unsubscribe", new DialogInterface.OnClickListener() {
                     @Override
