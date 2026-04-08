@@ -1,4 +1,4 @@
-# English Learning App (Bangla to English)
+# Learnio
 
 An Android application designed to help Bangla-speaking students learn English pronunciation through interactive practice with their teachers.
 
