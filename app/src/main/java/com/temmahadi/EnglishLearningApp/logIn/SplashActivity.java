@@ -32,8 +32,8 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
             } else {
-                // User is not subscribed, go to mobile number activity for login
-                Intent intent = new Intent(SplashActivity.this, MobileNumberActivity.class);
+                // User is not subscribed, show landing page with subscription details
+                Intent intent = new Intent(SplashActivity.this, LandingActivity.class);
                 startActivity(intent);
             }
             finish(); // Close splash activity

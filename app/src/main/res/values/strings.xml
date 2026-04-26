@@ -26,6 +26,16 @@
     <string name="widget_description">Track your daily water intake</string>
     <string name="widget_enhanced_description">Track daily water intake and maintain hydration goals with advanced features and notifications.Enhanced daily points tracker with progress indicators and trend analysis</string>
     <string name="send_otp">Send OTP</string>
+    <string name="landing_headline">Learn English Like a Pro</string>
+    <string name="landing_subtitle">Unlock premium lessons, daily challenges, and smart practice routines.</string>
+    <string name="landing_subscription_label">Subscription</string>
+    <string name="landing_price">2Tk+VAT+SD+SC/Day</string>
+    <string name="landing_price_note">Simple daily access. Cancel anytime.</string>
+    <string name="landing_feature_one">- Daily guided speaking practice</string>
+    <string name="landing_feature_two">- Vocabulary boosts and quizzes</string>
+    <string name="landing_feature_three">- Track your streak and progress</string>
+    <string name="landing_register_cta">Register and Continue</string>
+    <string name="landing_disclaimer">Only for Robi / Airtel users</string>
     <string name="otp_verification">OTP Verification</string>
     <string name="_018xxxxxxxx">018XXXXXXXX</string>
     <string name="get_otp">Get OTP</string>

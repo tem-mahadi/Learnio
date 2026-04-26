@@ -41,6 +41,10 @@
 
         <!-- Login Activities -->
         <activity
+            android:name=".logIn.LandingActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".logIn.MobileNumberActivity"
             android:exported="false" />
 
